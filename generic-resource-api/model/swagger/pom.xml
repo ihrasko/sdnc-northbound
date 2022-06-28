@@ -19,7 +19,6 @@
 
     <properties>
         <api.name>generic-resource</api.name>
-        <jackson.version>2.9.5</jackson.version>
     </properties>
 
     <dependencies>
@@ -97,36 +96,6 @@
                 <artifactId>yang-maven-plugin</artifactId>
                 <version>6.0.7</version>
                 <dependencies>
-                    <dependency>
-                        <groupId>com.fasterxml.jackson.core</groupId>
-                        <artifactId>jackson-core</artifactId>
-                        <version>${jackson.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.fasterxml.jackson.core</groupId>
-                        <artifactId>jackson-databind</artifactId>
-                        <version>${jackson.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.fasterxml.jackson.core</groupId>
-                        <artifactId>jackson-annotations</artifactId>
-                        <version>${jackson.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.fasterxml.jackson.module</groupId>
-                        <artifactId>jackson-module-jaxb-annotations</artifactId>
-                        <version>${jackson.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.fasterxml.jackson.jaxrs</groupId>
-                        <artifactId>jackson-jaxrs-base</artifactId>
-                        <version>${jackson.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.fasterxml.jackson.jaxrs</groupId>
-                        <artifactId>jackson-jaxrs-json-provider</artifactId>
-                        <version>${jackson.version}</version>
-                    </dependency>
                     <dependency>
                         <groupId>com.mrv.yangtools</groupId>
                         <artifactId>swagger-maven-plugin</artifactId>
